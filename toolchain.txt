@@ -1,0 +1,17 @@
+tool chain:
+
+gcc (-std=c++23)
+msvc
+clang
+
+IDE:
+
+MSVS
+Dev-C++ (gcc)
+XCode
+
+VS code
+QT creator
+Eclipse for C++
+CodeBlocks
+CLion (JetBrains)
