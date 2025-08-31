@@ -35,6 +35,34 @@ abc  ( cde )  ( [ ( ] ) ) abc () 22
 	извлекаем со стека последнюю скобку и проверяем что она нужно типа
 5. В конце стек должен пуст (empty)
 
+Лабораторная 4.1
+Скачать, собрать и подключить Boost
+
+Building boost using msvc
+1. Download and extract boost lib
+2. Make toolchain available in command line (using PATH) (skip for msvc)
+3. .\bootstrap msvc or .\bootstrap
+4. .\b2 --prefix=boost_msvc install
+
+Building boost using gcc
+1. Download and extract boost lib
+2. Make toolchain available in command line (using PATH)
+3. .\bootstrap gcc
+4. .\b2 --prefix=boost_gcc install
+
+Лабораторная 4.2
+1. Есть несколько текстовых файлов (input_xxx.txt)
+2. Нужно прочитать все файлы (filesystem) и разобрав их на слова (tokinzer)
+подсчитать количество повторений каждого слова.
+3. Вывести результат, отсортировав по убыванию частоту.
+
+Лабораторная 4.3
+1. Создать клиента для сервера (boost::asio::ip::tcp:socket), который 
+пересылает серверу строчку привествия в кодировке utf-8  (\n). 
+2. Сервер, получив строку от клиента перводит её в верхний регистр и отправляет обратно
+клиент.
+
+
 
 
 
